@@ -1,2 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+import requests
+
+url = 'http://wttr.in/'
+r = requests.get(url)
+r.json()
